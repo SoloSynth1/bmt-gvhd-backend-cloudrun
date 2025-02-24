@@ -23,5 +23,4 @@ def predict(request: PredictionRequest) -> Optional[Dict]:
         'model': model_path,
         'modelDisplayName': model_path,
         'modelVersionId': "1"
-
     }
